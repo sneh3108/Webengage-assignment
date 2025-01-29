@@ -35,18 +35,37 @@ Before running the project, ensure you have the following installed:
 3. Start the server:
    ```bash
    node index.js
+   
 
 The server will start running on http://localhost:3000
+
+
 
 ## Generating the CSV File
 
 To generate the CSV file, make a GET request to the /generate-csv endpoint:
 
--Using a browser: Visit http://localhost:3000/generate-csv
-
--Using Curl
-
- ```bash
+- Using a browser: Visit http://localhost:3000/generate-csv
+- Using a curl
+  ```bash
    curl http://localhost:3000/generate-csv
 
-## Generating the CSV File
+## Example Response
+
+If the CSV file is generated successfully, the server will respond with:
+
+  ```bash
+      {
+         "message": "CSV file generated successfully!",
+        "path": "/path/to/your/project/output/data.csv"
+        }
+ 
+
+
+
+
+
+
+
+
+
