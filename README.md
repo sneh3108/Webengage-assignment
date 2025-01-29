@@ -75,14 +75,14 @@ If the CSV file is generated successfully, the server will respond with:
 
 ## Error Handling
 
--If any of the API requests fail, the server will return a 500 status code with an error message.
--If the output directory does not exist, it will be created automatically.
+If any of the API requests fail, the server will return a 500 status code with an error message.  
+If the output directory does not exist, it will be created automatically.
 
 ## Dependencies
 
--Express.js: Web framework for Node.js.  
--Axios: Promise-based HTTP client for making API requests.  
--csv-writer: Library for writing CSV files.  
+Express.js: Web framework for Node.js.  
+Axios: Promise-based HTTP client for making API requests.  
+csv-writer: Library for writing CSV files.  
 
 ## Contributing
 If you'd like to contribute to this project, please follow these steps:
@@ -97,6 +97,6 @@ If you'd like to contribute to this project, please follow these steps:
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Author
--Sneh Ranjan  
--Github:https://github.com/sneh3108  
--Email:snehr63@gmail.com  
+Sneh Ranjan  
+Github:https://github.com/sneh3108  
+Email:snehr63@gmail.com  
