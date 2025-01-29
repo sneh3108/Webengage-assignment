@@ -45,5 +45,8 @@ To generate the CSV file, make a GET request to the /generate-csv endpoint:
 -Using a browser: Visit http://localhost:3000/generate-csv
 
 -Using Curl
+
  ```bash
-curl http://localhost:3000/generate-csv
+   curl http://localhost:3000/generate-csv
+
+## Generating the CSV File
