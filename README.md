@@ -76,10 +76,10 @@ If the CSV file is generated successfully, the server will respond with:
 ## Contributing
 If you'd like to contribute to this project, please follow these steps:
 
-1.Fork the repository.
-2.Create a new branch for your feature or bugfix.
-3.Commit your changes.
-4.Push your branch and submit a pull request.
+ 1.Fork the repository.
+ 2.Create a new branch for your feature or bugfix.
+ 3.Commit your changes.
+ 4.Push your branch and submit a pull request.
 
 
 ## License
