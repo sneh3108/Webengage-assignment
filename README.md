@@ -27,3 +27,28 @@ Before running the project, ensure you have the following installed:
    ```bash
    git clone https://github.com/your-username/express-csv-generator.git
    cd express-csv-generator
+
+2. Install dependencies:
+   ```bash
+   npm install
+
+3. Start the server:
+   ```bash
+   node index.js
+
+The server will start running on http://localhost:3000
+
+## Generating the CSV File
+
+To generate the CSV file, make a GET request to the /generate-csv endpoint:
+
+-Using a browser: Visit http://localhost:3000/generate-csv.
+-Using Curl
+ ```bash
+curl http://localhost:3000/generate-csv
+
+
+
+
+
+
