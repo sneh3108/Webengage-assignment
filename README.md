@@ -53,6 +53,11 @@ To generate the CSV file, make a GET request to the /generate-csv endpoint:
 ## Example Response
 
 If the CSV file is generated successfully, the server will respond with:
+
+{
+  "message": "CSV file generated successfully!",
+  "path": "/path/to/your/project/output/data.csv"
+}
  
  
 
